@@ -1,3 +1,3 @@
 import piskvorky
 
-piskvorky.pisvorky1d()
+piskvorky.piskvorky1d()
