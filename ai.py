@@ -1,3 +1,9 @@
+import random
+
+
+def tah(herni_pole, cislo_policka, symbol):
+    return herni_pole[:cislo_policka] + symbol + herni_pole[cislo_policka + 1:]
+
 def tah_pocitace(herni_pole):
 
     while True:
