@@ -1,7 +1,6 @@
 import random
 import ai
 
-
 def piskvorky1d():
     herni_pole = "-" * 20
     na_tahu = "x"
