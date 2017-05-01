@@ -1,4 +1,6 @@
 import random
+import ai
+
 
 def piskvorky1d():
     herni_pole = "-" * 20
@@ -9,7 +11,7 @@ def piskvorky1d():
             herni_pole = tah_hrace(herni_pole)
             na_tahu = "o"
         elif na_tahu == "o":
-            herni_pole = tah_pocitace(herni_pole)
+            herni_pole = ai.tah_pocitace(herni_pole)
             na_tahu = "x"
 
         vysledek = vyhodnot(herni_pole)
